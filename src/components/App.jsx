@@ -46,7 +46,6 @@ state = {
 
 }
   render() {
-   // const druga = 
     return (
       
 <Sections>
