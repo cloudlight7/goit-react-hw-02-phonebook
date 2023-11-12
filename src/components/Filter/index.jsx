@@ -1,9 +1,10 @@
-const Filter = ({filter}) => {
+import {Input} from './FilterStyle'
+const Filter = ({ filter }) => {
     //console.log(item);
     return (
         <>
             <p>Find contacts by name</p>
-            <input onChange={filter} placeholder="Search..."  name="filter" type="text"/>
+            <Input onChange={filter} placeholder="Search..."  name="filter" type="text"/>
             </>
     )
 }

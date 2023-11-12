@@ -1,9 +1,8 @@
-import {Element} from './ContactStyle'
+import {Element, Button,Text} from './ContactStyle'
 const Contact = ({ item, delContact }) => {
-    //console.log(item);
     return (
-        <Element>{item.name} {item.number}
-        <button onClick={()=>delContact(item.id)} type="submit">Delete</button>
+        <Element><Text>{item.name}</Text> <Text>{item.number}</Text>
+        <Button onClick={()=>delContact(item.id)} type="submit">Delete</Button>
         </Element>
     )
 }
